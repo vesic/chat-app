@@ -1,0 +1,27 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat app kind of simulator",
+  "main": "index.js",
+  "dependencies": {
+    "chance": "^1.0.4",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "lodash": "^4.14.1",
+    "node-uuid": "^1.4.7",
+    "socket.io": "^1.4.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vesic/chat-app.git"
+  },
+  "author": "dusan.vesic@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vesic/chat-app/issues"
+  },
+  "homepage": "https://github.com/vesic/chat-app#readme"
+}
