@@ -151,12 +151,10 @@ export default class App extends Component {
       (
         <div className="input-group">
           <input
-            style={{borderRadius: 0}}
             className="form-control"
             placeholder="Your Name"
             ref='userName'/>
           <span
-            style={{borderRadius: 0}}
             onClick={::this.connectUser}
             className="btn input-group-addon">
             Connect
@@ -188,10 +186,9 @@ export default class App extends Component {
       ?
       (
         <div>
-          <h4>#{_.capitalize(this.state.room)}</h4>
+          <h2>#{_.capitalize(this.state.room)}</h2>
           <div>
             <input
-              style={{borderRadius:0}}
               className='form-control input-sm' onKeyPress={::this.sendMessage}/>
           </div>
           <div id='chatWrapper'
@@ -218,8 +215,8 @@ export default class App extends Component {
       :
       (
         <div>
-          <h3>Select channel</h3>
-          <p></p>
+          <h2>Select channel</h2>
+          <div>To write your message</div>
         </div>
       )
   }
