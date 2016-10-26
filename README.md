@@ -2,4 +2,4 @@
 
 Chat app kind of simulator
 
-https://github.com/vesic/chat-app
+https://enigmatic-spire-50792.herokuapp.com/
